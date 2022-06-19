@@ -11,6 +11,7 @@ body {
   font-family: "Source Sans Pro", "Times New Roman";
   background-color: rgb(0, 0, 0);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 
   /*Ajudar na renderização do texto*/
 
@@ -35,6 +36,10 @@ header .container {
   max-width: 980px; /* <--Largura max para todo container/header */
   height: 80px;
   margin: auto;
+}
+
+nav {
+  overflow-x: hidden;
 }
 
 header nav ul {
