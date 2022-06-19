@@ -1,4 +1,7 @@
 @media (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
   main .container-main div {
     margin: auto;
   }
@@ -37,11 +40,25 @@
     overflow-x: hidden;
   }
 
+  form input {
+    font-size: 15px;
+    width: 375px;
+    height: 40px;
+  }
+
+  form [type="submit"] {
+    width: 9.7rem;
+    padding-left: 0px;
+    font-size: 0.8rem;
+    height: 2rem;
+  }
+
   h2 {
     font-size: 2rem;
   }
   h3 {
     font-size: 1rem;
+    margin-right: 60px;
   }
 
   main {
