@@ -38,10 +38,6 @@ header .container {
   margin: auto;
 }
 
-nav {
-  overflow-x: hidden;
-}
-
 header nav ul {
   display: flex; /* -->Deixar responsivo/ li alinhado */
 }
